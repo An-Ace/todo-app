@@ -97,7 +97,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 📧 Contact
 
-- **Your Name:** [An-Ace](muhammadnasrulloh.id@gmail.com)
+- **Your Name:** [An-Ace](mailto:muhammadnasrulloh.id@gmail.com)
 - **Project Link:** [https://github.com/An-Ace/todo-app](https://github.com/An-Ace/todo-app)
 
 
