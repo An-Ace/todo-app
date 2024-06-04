@@ -12,6 +12,7 @@ export const getData = async (userId: number) => {
 };
 
 export const addTodo = async (id: number , text: string, userId: number) => {
+  // console.log(id, text, userId)
   await db.insert(todos).values({
     id,
     text: text,
@@ -38,6 +39,7 @@ export const toggleTodo = async (id: number, done: boolean) => {
 };
 
 export const editTodo = async (id: number, text: string) => {
+  // console.log(id, text)
   await db
     .update(todos)
     .set({

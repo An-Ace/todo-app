@@ -22,7 +22,6 @@ async function validateRequest(request: Request) {
 
 export async function POST(request: NextRequest) {
   const payload = await validateRequest(request)
-  console.log(payload)
   if (payload.type === 'user.created') {
     const user = payload.data;
 
